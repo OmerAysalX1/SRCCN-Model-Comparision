@@ -80,8 +80,20 @@ Key points:
 ### 🔍 Observations
 - 🎨 **RGB model (TensorFlow):** Best performance with **30.37 dB PSNR**, showing the importance of full color information.  
 - 🌌 **Y channel model (TensorFlow):** Retains structural details (27.99 dB PSNR) but loses color information.  
-- ⚡ **Y channel model (PyTorch):** Lowest PSNR (**24.48 dB**) → highlights differences in **normalization techniques and framework implementations**.  
+- ⚡ **Y channel model (PyTorch):** Lowest PSNR (**24.48 dB**) → highlights differences in **normalization techniques and framework implementations**.
 
+### 🖼️ Model Visualizations
+<img width="2816" height="1556" alt="image" src="https://github.com/user-attachments/assets/392c42e2-7f25-4bbe-9956-b8eb47dc9785" />
+<img width="2810" height="1582" alt="image" src="https://github.com/user-attachments/assets/c5a2863e-ea6f-422d-a12f-337fdb4ccfdf" />
+<img width="2808" height="1588" alt="image" src="https://github.com/user-attachments/assets/1734fac6-6b99-45a3-a836-e17d07f87e0c" />
+
+- Currently, there are no sample images available in the `dataset/` folder.
+- For the remaining images or the full dataset, please **contact me**; files can be shared upon request.
+
+### 📂 Dataset Note
+- All HR/LR training and test images are stored in the `dataset/` folder.
+- Due to size restrictions, **no images are included in the repository**.
+- The full dataset is available upon request to collaborators or interested researchers.
 ---
 
 ## 🛠️ Technical Details
